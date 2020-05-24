@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
+import Message from "./Components/Message";
 
 function App() {
   return (
@@ -21,12 +22,13 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Greet name="pandula">
+      {/* <Greet name="pandula">
         <button>Action</button>
       </Greet>
       <Greet name="Danajaya" />
-      <Greet name="Madawala" />
-      <Welcome name ='jessica'/>
+      <Greet name="Madawala" /> */}
+      {/* <Welcome name="jessica" /> */}
+      <Message />
     </div>
   );
 }
