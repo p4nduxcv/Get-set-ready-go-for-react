@@ -26,7 +26,7 @@ function App() {
       </Greet>
       <Greet name="Danajaya" />
       <Greet name="Madawala" />
-      <Welcome />
+      <Welcome name ='jessica'/>
     </div>
   );
 }
