@@ -7,26 +7,14 @@ import Message from "./Components/Message";
 import Counter from "./Components/Counter";
 import FunctionClick from "./Components/FunctionClick";
 import ClassClick from "./Components/ClassClick";
+import EventBidnd from "./Components/EventBind";
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
+      <EventBidnd />
+      {/* <FunctionClick />
       <ClassClick />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
       <Greet name="pandula">
         <button>Action</button>
       </Greet>
@@ -34,8 +22,7 @@ function App() {
       <Greet name="Madawala" />
       <Welcome name="jessica" />
       <Message />
-
-      <Counter />
+      <Counter /> */}
     </div>
   );
 }
