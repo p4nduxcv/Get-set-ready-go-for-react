@@ -5,10 +5,14 @@ import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import Message from "./Components/Message";
 import Counter from "./Components/Counter";
+import FunctionClick from "./Components/FunctionClick";
+import ClassClick from "./Components/ClassClick";
 
 function App() {
   return (
     <div className="App">
+      <FunctionClick />
+      <ClassClick />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,12 +27,12 @@ function App() {
           Learn React
         </a>
       </header> */}
-      {/* <Greet name="pandula">
+      <Greet name="pandula">
         <button>Action</button>
       </Greet>
       <Greet name="Danajaya" />
-      <Greet name="Madawala" /> */}
-      {/* <Welcome name="jessica" /> */}
+      <Greet name="Madawala" />
+      <Welcome name="jessica" />
       <Message />
 
       <Counter />

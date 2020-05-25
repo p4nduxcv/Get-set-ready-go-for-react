@@ -6,11 +6,12 @@ import React from "react";
 // }
 
 //ES6
-const Greet = (props) => {
+const Greet = (props) => {  // methan pass karanwanam ({name})
+const {name} = props
   return (
     <div>
-      <h1> Fuqer {props.name} </h1>
-      {props.children}
+      <h1> Fuqer {name} </h1>
+      {/* {props.children} */}
     </div>
   );
 };
