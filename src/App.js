@@ -9,11 +9,13 @@ import FunctionClick from "./Components/FunctionClick";
 import ClassClick from "./Components/ClassClick";
 import EventBidnd from "./Components/EventBind";
 import ParentComponent from "./Components/ParentComponent";
+import UserGreetings from "./Components/Conditional Rendering/UserGreeting";
 
 function App() {
   return (
     <div className="App">
       <ParentComponent />
+      <UserGreetings />
       {/* <EventBidnd /> */}
       {/* <FunctionClick />
       <ClassClick />
