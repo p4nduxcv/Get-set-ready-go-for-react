@@ -9,19 +9,20 @@ export default class EventBind extends Component {
     // 3.) Official Approches cinding the class contructor
     // this.clickHandler = this.clickHandler.bind(this);
   }
-//   clickHandler() {
-//     this.setState((prevState) => ({
-//       message: "good bye",
-//     }));
-//     console.log(this) 
-//   }
+  //   clickHandler() {
+  //     this.setState((prevState) => ({
+  //       message: "good bye",
+  //     }));
+  //     console.log(this)
+  //   }
 
-    clickHandler = () =>  {
+  clickHandler = () => {
     this.setState((prevState) => ({
       message: "good bye",
     }));
-    console.log(this) 
-  }
+    console.log(this.prevState);
+    console.log(this);
+  };
 
   render() {
     return (

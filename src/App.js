@@ -8,11 +8,13 @@ import Counter from "./Components/Counter";
 import FunctionClick from "./Components/FunctionClick";
 import ClassClick from "./Components/ClassClick";
 import EventBidnd from "./Components/EventBind";
+import ParentComponent from "./Components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      <EventBidnd />
+      <ParentComponent />
+      {/* <EventBidnd /> */}
       {/* <FunctionClick />
       <ClassClick />
       <Greet name="pandula">
