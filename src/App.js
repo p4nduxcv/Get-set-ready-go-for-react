@@ -12,11 +12,13 @@ import ParentComponent from "./Components/ParentComponent";
 import UserGreetings from "./Components/Conditional Rendering/UserGreeting";
 import NameList from "./Components/Lists/NameList";
 import Form from "./Components/Forms/Form";
+import LifeCycleA from "./Components/Life Cycles/LifeCycleA";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifeCycleA />
+      {/* <Form /> */}
       {/* <NameList primary={true} /> */}
       {/* <ParentComponent />
       <UserGreetings /> */}
