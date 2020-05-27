@@ -15,7 +15,7 @@ import NameList from "./Components/Lists/NameList";
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <NameList primary={true} />
       {/* <ParentComponent />
       <UserGreetings /> */}
       {/* <EventBidnd /> */}
