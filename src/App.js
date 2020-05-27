@@ -11,11 +11,13 @@ import EventBidnd from "./Components/EventBind";
 import ParentComponent from "./Components/ParentComponent";
 import UserGreetings from "./Components/Conditional Rendering/UserGreeting";
 import NameList from "./Components/Lists/NameList";
+import Form from "./Components/Forms/Form";
 
 function App() {
   return (
     <div className="App">
-      <NameList primary={true} />
+      <Form />
+      {/* <NameList primary={true} /> */}
       {/* <ParentComponent />
       <UserGreetings /> */}
       {/* <EventBidnd /> */}
