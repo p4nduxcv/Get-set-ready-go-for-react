@@ -13,11 +13,15 @@ import UserGreetings from "./Components/Conditional Rendering/UserGreeting";
 import NameList from "./Components/Lists/NameList";
 import Form from "./Components/Forms/Form";
 import LifeCycleA from "./Components/Life Cycles/LifeCycleA";
+import FragmentDemo from "./Components/Fragment/FragmentDemo";
+import Table from "./Components/Fragment/Table";
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
+      <Table />
+      {/* <FragmentDemo /> */}
+      {/* <LifeCycleA /> */}
       {/* <Form /> */}
       {/* <NameList primary={true} /> */}
       {/* <ParentComponent />
