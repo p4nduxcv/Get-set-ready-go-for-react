@@ -16,11 +16,13 @@ import LifeCycleA from "./Components/Life Cycles/LifeCycleA";
 import FragmentDemo from "./Components/Fragment/FragmentDemo";
 import Table from "./Components/Fragment/Table";
 import ParentCompo from "./Components/Pure Component/ParentComp";
+import RefDemo from "./Components/Refs/RefDemo";
 
 function App() {
   return (
     <div className="App">
-      <ParentCompo />
+      <RefDemo />
+      {/* <ParentCompo /> */}
       {/* <PureComp /> */}
       {/* <Table /> */}
       {/* <FragmentDemo /> */}
