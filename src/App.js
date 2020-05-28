@@ -17,11 +17,13 @@ import FragmentDemo from "./Components/Fragment/FragmentDemo";
 import Table from "./Components/Fragment/Table";
 import ParentCompo from "./Components/Pure Component/ParentComp";
 import RefDemo from "./Components/Refs/RefDemo";
+import PortalDemo from "./Components/Portal/PortalDemo";
 
 function App() {
   return (
     <div className="App">
-      <RefDemo />
+      <PortalDemo />
+      {/* <RefDemo /> */}
       {/* <ParentCompo /> */}
       {/* <PureComp /> */}
       {/* <Table /> */}
