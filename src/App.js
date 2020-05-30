@@ -21,11 +21,13 @@ import PortalDemo from "./Components/Portal/PortalDemo";
 import Hero from "./Components/Error Boundary/Hero";
 import ErrorBoundary from "./Components/Error Boundary/ErrorBoundary";
 import PostList from "./Components/Htpp/PostList";
+import PstForm from "./Components/Htpp/PostForm";
 
 function App() {
   return (
     <div className="App">
-      <PostList />
+      <PstForm />
+      {/* <PostList /> */}
       {/* <PortalDemo /> */}
       {/* <ErrorBoundary>
         <Hero heroName="batman" />
