@@ -18,11 +18,17 @@ import Table from "./Components/Fragment/Table";
 import ParentCompo from "./Components/Pure Component/ParentComp";
 import RefDemo from "./Components/Refs/RefDemo";
 import PortalDemo from "./Components/Portal/PortalDemo";
+import Hero from "./Components/Error Boundary/Hero";
+import ErrorBoundary from "./Components/Error Boundary/ErrorBoundary";
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+      {/* <PortalDemo /> */}
+      <ErrorBoundary>
+        <Hero heroName="batman" />
+        <Hero heroName="pakaya" />
+      </ErrorBoundary>
       {/* <RefDemo /> */}
       {/* <ParentCompo /> */}
       {/* <PureComp /> */}
