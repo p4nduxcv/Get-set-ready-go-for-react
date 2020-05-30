@@ -20,15 +20,17 @@ import RefDemo from "./Components/Refs/RefDemo";
 import PortalDemo from "./Components/Portal/PortalDemo";
 import Hero from "./Components/Error Boundary/Hero";
 import ErrorBoundary from "./Components/Error Boundary/ErrorBoundary";
+import PostList from "./Components/Htpp/PostList";
 
 function App() {
   return (
     <div className="App">
+      <PostList />
       {/* <PortalDemo /> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="batman" />
         <Hero heroName="pakaya" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
       {/* <RefDemo /> */}
       {/* <ParentCompo /> */}
       {/* <PureComp /> */}
